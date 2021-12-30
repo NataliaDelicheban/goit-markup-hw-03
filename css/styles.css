@@ -35,13 +35,16 @@ button {
 .header {
     background-color: var(--btn-color);
 }
+.header-container {
+    display: flex;
+    align-items: center;
+}
 .link {
     text-decoration: none;
 }
 .list {
     list-style: none;
     display: flex;
-    justify-content: center;
 }
 .logo {
     font-family: "Raleway", "sans-serif";
@@ -49,16 +52,22 @@ button {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    display: flex;
+    margin-left: 215px;
+    margin-right: 93px;
 }
 .logo-dark-text {
     color: #000000;
 }
+
 .nav-link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--title-color);
+display: flex;
+padding-right: 50px;
 }
 .current {
     color: var(--accent-color);
