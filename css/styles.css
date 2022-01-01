@@ -12,15 +12,16 @@ body {
 p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
-img {
-    display: block;
-}
-ul, ol {
+
+ul {
     margin: 0;
     padding: 0;
 }
 button {
     cursor: pointer;
+}
+img {
+    display: block;
 }
 
 
@@ -34,12 +35,10 @@ button {
 }
 .header {
     background-color: var(--btn-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
-.header-container {
-    display: flex;
-    align-items: center;
-    flex: content;
-}
+
 .link {
     text-decoration: none;
 }
@@ -53,10 +52,6 @@ button {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    display: flex;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    margin-right: 93px;
     
 }
 .logo-dark-text {
@@ -69,16 +64,8 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--title-color);
-display: flex;
-justify-content: center;
-padding-top: 32px;
-padding-left: 50px;
-padding-bottom: 32px;
 }
-.nav-link:last-child {
-    padding-right: 0;
-    margin-right: 50px;
-}
+
 .current {
     color: var(--accent-color);
 }
@@ -92,12 +79,6 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--header-color);
-display: inline-block;
-padding-top: 32px;
-padding-bottom: 32px;
-padding-right: 50px;
-margin-right: auto;
-margin-left: auto;
 }
 
 .nav-contact:hover,
@@ -108,6 +89,8 @@ margin-left: auto;
 /* Section Name */
 .name {
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .name-title {
 font-weight: 900;
@@ -117,6 +100,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--btn-color);
+margin-bottom: 30px;
 }
 .name-btn {
 font-family: inherit;
@@ -136,8 +120,13 @@ cursor: pointer;
 }
 
 /* Section principles */
+.principles {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .visually-hidden {
     position: absolute;
+    white-space: nowrap;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -145,6 +134,7 @@ cursor: pointer;
     overflow: hidden;
     border: 0;
     clip: rect(0 0 0 0);
+    clip-path: inset(50%);
 }
 .principles-title {
 font-size: 14px;
@@ -152,6 +142,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-color);
+margin-bottom: 10px;
 }
 .principles-text {
 font-size: 14px;
@@ -160,17 +151,24 @@ letter-spacing: 0.03em;
 }
 
 /* Section about */
+.about {
+    padding-top: 0;
+    padding-bottom: 94px;
+}
 .about-title {
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-color);
+margin-bottom: 50px;
 }
 
 /* Team */
 .team {
-    background-color: #F5F4FA;;
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .team-title {
 font-weight: 700;
@@ -179,6 +177,10 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-color);
+margin-bottom: 50px;
+}
+.team-image {
+    margin-bottom: 30px;
 }
 .team-name {
 font-weight: 500;
@@ -187,6 +189,7 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-color);
+margin-bottom: 10px;
 }
 .team-position { 
 font-size: 16px;
@@ -199,13 +202,15 @@ color: var(--header-color);
 /* Footer */
 .footer {
 background-color: #2F303A;
-;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 .logo-light-text {
     color: var(--btn-color);
 }
 .address {
 font-style: normal;
+margin-top: 20px;
 }
 .adress-link {
 font-size: 14px;
@@ -221,6 +226,9 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 /* Portfolio */
+.filter {
+    margin-bottom: 34px;
+}
 .filter-btn-main {
 font-family: inherit;
 font-weight: 500;
@@ -252,16 +260,26 @@ cursor: pointer;
 background-color: var(--accent-color);
 color: var(--btn-color);
 }
+.projects {
+    padding-bottom: 20px;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+/.projects-list {
+    margin-top: 30px;
+}
 .projects-title {
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--title-color);
+margin-top: 20px;
 }
 .projects-text {  
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 color: var(--header-color);
+margin-top: 4px;
 }
 
